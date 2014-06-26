@@ -8,7 +8,6 @@
 
 #import "CCNode.h"
 #import "Character.h"
-#import "MainScene.h"
 
 typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrderPipes,
