@@ -13,12 +13,9 @@
     
     
     
-    
-    
-
-    
-    
-    // Adding More Obstacles
+    // Add a new obstacle
+    [self addObstacle];
+        // Adding More Obstacles
     timeSinceObstacle = 0.0f; // Initalize the variable timeSinceObstacle
 }
 
