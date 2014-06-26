@@ -15,8 +15,7 @@
     
     
     
-    // Add the First Obstacle
-    [self addObstacle];
+
     
     
     // Adding More Obstacles
