@@ -28,7 +28,7 @@
 // In games built with Cocos2D, if your class has an update method like the one above, it will automatically get called 60 times a second.
 - (void)update:(CCTime)delta {
     // This will be run every frame
-    // delta is the time that has elapsed since the last time it was run.
+    // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
     // put update code here
     
     // Increment the time since the last obstacle was added
@@ -42,9 +42,6 @@
         timeSinceObstacle = 0.0f;
     }
 }
-
-
-
 
 
 
